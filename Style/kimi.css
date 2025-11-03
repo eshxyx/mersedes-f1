@@ -1,0 +1,144 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    background-color: #00f5d0;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+.header {
+    background-color: black;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    padding: 30px;
+    gap: 40px;
+    justify-content: center;
+
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 245px;
+}
+.menu {
+    flex: 1;
+}
+.menu ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+.menu ul li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+.layout_header-line {
+    border-bottom: 5px solid hsl(171, 100%, 48%);
+    left: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+}
+.title {
+    display: flex;
+    font-size: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 85%;
+}
+#bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.wrapper {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+.kimi-info {
+    display: flex;
+    justify-content: space-between;
+
+}
+.bunner {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    padding: 40px 120px 40px 40px;
+}
+.bunner section {
+    display: flex;
+    gap: 10px;
+    padding: 40px 0 10px 0;
+}
+.bunner section p {
+    display: flex;
+    justify-content: space-between;
+}
+.kimi-info h2 {
+    margin: 50px 0;
+}
+.bunner-img img{
+    width: 75%;
+}
